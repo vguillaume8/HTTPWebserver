@@ -167,7 +167,7 @@ public class HttpWebServer implements  Runnable{
         } catch (FileNotFoundException fnfe){
 
             try{
-
+                // error
                 fileNotFound(out, dataOut, fileRequested);
 
             } catch(IOException ioe){
